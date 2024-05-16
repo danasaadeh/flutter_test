@@ -37,7 +37,7 @@ class _NavigatorBarState extends State<NavigatorBar> {
         items: [
           BottomNavigationBarItem(
             icon: Icon(
-              Icons.home,
+              FontAwesomeIcons.store,
             ),
             label: "Shop",
           ),
@@ -53,12 +53,12 @@ class _NavigatorBarState extends State<NavigatorBar> {
               label: "Cart"),
           BottomNavigationBarItem(
               icon: Icon(
-                Icons.favorite_border,
+                Icons.favorite_border_outlined,
               ),
               label: "Favourite"),
           BottomNavigationBarItem(
               icon: Icon(
-                Icons.person,
+                Icons.person_2_outlined,
               ),
               label: "Account"),
         ],
